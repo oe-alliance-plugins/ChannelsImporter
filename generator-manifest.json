@@ -1,0 +1,18 @@
+{
+  "branch": "main",
+  "depends_recipe": "",
+  "description_control": "channelsimporter...",
+  "description_recipe": "Imports a copy of the channel list from a remote receiver and loads it on the local receiver.",
+  "history_source_dir": "ChannelsImporter",
+  "internal_package_name": "enigma2-plugin-systemplugins-channelsimporter",
+  "module_dir_name": "ChannelsImporter",
+  "output_subdir": "ChannelsImporter",
+  "package_name": "enigma2-plugin-systemplugins-channelsimporter",
+  "plugin_src_rel": "ChannelsImporter",
+  "python_package": "ChannelsImporter",
+  "rdepends_recipe": "",
+  "replaces": "",
+  "repo_name": "ChannelsImporter",
+  "rrecommends": "",
+  "rreplaces": ""
+}
