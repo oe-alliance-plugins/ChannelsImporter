@@ -8,7 +8,6 @@ from Components.Sources.StaticText import StaticText
 from Components.config import config, configfile, ConfigSubsection, ConfigIP, ConfigText, ConfigInteger, ConfigYesNo, ConfigSelection, ConfigClock, NoSave, ConfigNumber
 from Screens.Setup import Setup
 from Components.SystemInfo import SystemInfo
-from Screens.MessageBox import MessageBox  # for are you sure questions after config changes
 
 from .ChannelsImporter import ChannelsImporter
 
