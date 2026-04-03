@@ -256,7 +256,7 @@ class ChannelsImporter(Screen):
 							if result is None:
 								continue
 							self.alternatives.append(result.group(1))
-				except:
+				except Exception:
 					pass
 
 	def showError(self, message):
@@ -321,5 +321,5 @@ class ChannelsImporter(Screen):
 			print('[ChannelsImporter][saveEPGonRemoteReceiver] ERROR:', err)
 		except URLError as err:
 			print('[ChannelsImporter][saveEPGonRemoteReceiver] ERROR:', err.reason[0])
-		except:
+		except Exception:
 			print('[ChannelsImporter][saveEPGonRemoteReceiver] undefined error')
