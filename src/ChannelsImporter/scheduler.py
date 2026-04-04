@@ -1,4 +1,3 @@
-from __future__ import print_function
 from __future__ import absolute_import
 # for localized messages
 from . import _
@@ -8,6 +7,7 @@ from Components.config import config
 from enigma import eTimer
 
 from .ChannelsImporter import ChannelsImporter
+from Screens.MessageBox import MessageBox
 
 autoChannelsImporterTimer = None
 
@@ -16,7 +16,7 @@ def autostart(reason, session=None, **kwargs):
 	"called with reason=1 to during /sbin/shutdown.sysvinit, with reason=0 at startup?"
 	global autoChannelsImporterTimer
 	global _session
-	now = int(time())
+	# now = int(time())
 	if reason == 0:
 		print("[ChannelsImporterScheduler][ChannelsImporterautostart] AutoStart Enabled")
 		if session is not None:
@@ -168,8 +168,10 @@ class AutoChannelsImporterTimer:
 				ChannelsImporterTime = 0
 				print("[ChannelsImporterScheduler][doneConfiguring] Schedule Disabled at", strftime("%c", localtime(now)))
 				autoChannelsImporterTimer.backupstop()
+		"""
 		if ChannelsImporterTime > 0:
 			t = localtime(ChannelsImporterTime)
 			channelsimportertext = strftime(_("%a %e %b  %-H:%M"), t)
 		else:
 			channelsimportertext = ""
+		"""
