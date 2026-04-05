@@ -1,13 +1,12 @@
 # -*- coding: UTF-8 -*-
 # for localized messages
-from __future__ import print_function
 from __future__ import absolute_import
 from . import _
 
 import os
 import re
-from six.moves.urllib.request import Request, urlopen
-from six.moves.urllib.error import URLError, HTTPError
+from urllib.request import Request, urlopen
+from urllib.error import URLError, HTTPError
 
 from enigma import eServiceReference, eDVBDB
 
