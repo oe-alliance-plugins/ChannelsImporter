@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ChannelsImporter - oe-alliance\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-03 07:54+0100\n"
+"POT-Creation-Date: 2026-04-08 10:12+0200\n"
 "PO-Revision-Date: 2017-07-19 13:55+0300\n"
 "Last-Translator: Vytenis P. <vyteniui@gmail.com>\n"
 "Language-Team: \n"
@@ -16,47 +16,59 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-msgid "%a %e %b  %-H:%M"
-msgstr "%b %e, %a  %-H:%M"
-
+#: ../ChannelsImporter.py:88 ../ChannelsImporter.py:99
+#: ../ChannelsImporter.py:126 ../ChannelsImporter.py:137
+#: ../ChannelsImporter.py:148 ../ChannelsImporter.py:163
 #, python-format
 msgid "%d/%d"
 msgstr "%d/%d"
 
+#: ../setup.xml
 msgid "'yes' and remote fallback tuner will be automatically configured to stream from the remote receiver. 'no' and fallback will not be edited."
 msgstr "Jeigu 'Taip', nuotolinis atsarginis imtuvas bus sukonfigūruotas automatiškai transliuoti iš nutolusio aparato. 'Ne' - atsarginis redaguojamas nebus."
 
+#: ../setup.xml
 msgid "Allows you to set a schedule to perform an import."
 msgstr "Leidžia nustatyti importo vykdymo tvarkaraštį."
 
+#: ../setup.xml
 msgid "Auto configure remote fallback tuner"
 msgstr "Nutolusio atsarginio aparato autokonfigūravimas"
 
 # ChannelsImporter.py
+#: ../ChannelsImporter.py:42 ../ChannelsImporter.py:264 ../plugin.py:100
+#: ../plugin.py:111 ../setup.xml
 msgid "Channels importer"
 msgstr "Kanalų importas"
 
 # ChannelsImporter.py
+#: ../plugin.py:113
 #, fuzzy
 msgid "ChannelsImporter"
 msgstr "Kanalų importas"
 
+#: ../ChannelsImporter.py:59
 msgid "Checking FTP connection to remote receiver"
 msgstr "Tikrinamas FTP prisijungimas prie nutolusio imtuvo"
 
+#: ../ChannelsImporter.py:141
 msgid "Checking for alternatives..."
 msgstr "Ieškoma alternatyvų..."
 
+#: ../ChannelsImporter.py:75
 msgid "Connection to remote IP ok"
 msgstr "Prie nutolusio imtuvo IP prisijungta"
 
+#: ../ChannelsImporter.py:70
 msgid "Could not connect to the remote IP"
 msgstr "Nepavyko prisijungti prie nutolusio IP"
 
 # plugin.py
+#: ../plugin.py:29
 msgid "Daily"
 msgstr "kasdien"
 
+#: ../ChannelsImporter.py:224
 #, python-format
 msgid ""
 "Download epg.dat from remote receiver failed. Check file exists on remote receiver.\n"
@@ -65,146 +77,194 @@ msgstr ""
 "Parsiųsti epg.dat iš nuotolusio aparato nepavyko. Pažiūrėkite, ar jis ten yra.\n"
 "%s"
 
+#: ../ChannelsImporter.py:93 ../ChannelsImporter.py:131
+#: ../ChannelsImporter.py:153 ../ChannelsImporter.py:157
 #, python-format
 msgid "Download from remote failed %s"
 msgstr "Parsiųsti iš nutolusio aparato nepavyko %s"
 
+#: ../ChannelsImporter.py:203
 #, python-format
 msgid "Download settings from remote failed %s"
 msgstr "Parsiųsti nustatymų iš nuotolusio aparato nepavyko %s"
 
+#: ../ChannelsImporter.py:147
 msgid "Downloading alternatives..."
 msgstr "Parsiunčiamos alternatyvos..."
 
+#: ../ChannelsImporter.py:125
 msgid "Downloading bouquets..."
 msgstr "Parsiunčiami bukietai..."
 
+#: ../ChannelsImporter.py:87
 msgid "Downloading channel indexes..."
 msgstr "Parsiunčiamas kanalų sąrašas..."
 
+#: ../scheduler.py:147
 msgid "Enough Retries, delaying till next schedule."
 msgstr "Gana kartoti, laukiama iki kito grafiko."
 
+#: ../plugin.py:29
 msgid "Every 12 hours"
 msgstr "kas 12 val."
 
+#: ../plugin.py:29
 msgid "Every 2 hours"
 msgstr "kas 2 val."
 
+#: ../plugin.py:29
 msgid "Every 2 minutes (for testing)"
 msgstr "kas 2 min. (bandomasis)"
 
+#: ../plugin.py:29
 msgid "Every 3 hours"
 msgstr "kas 3 val."
 
+#: ../plugin.py:29
 msgid "Every 5 minutes (for testing)"
 msgstr "kas 5 min. (bandomasis)"
 
+#: ../plugin.py:29
 msgid "Every 6 hours"
 msgstr "kas 6 val."
 
+#: ../plugin.py:29
 msgid "Every hour"
 msgstr "kas valandą"
 
+#: ../setup.xml
 msgid "FTP Password"
 msgstr "FTP slaptažodis"
 
+#: ../setup.xml
 msgid "FTP Port"
 msgstr "FTP prievadas"
 
+#: ../setup.xml
 msgid "FTP Username"
 msgstr "FTP vartotojas"
 
+#: ../setup.xml
 msgid "FTP password of the remote receiver the channel list is being imported from."
 msgstr "Nutolusio imtuvo, iš kurio importuojamas kanalų sąrašas, FTV slaptažodis."
 
+#: ../setup.xml
 msgid "FTP port of the remote receiver the channel list is being imported from."
 msgstr "Nutolusio imtuvo, iš kurio importuojamas kanalų sąrašas, FTV prievadas."
 
+#: ../setup.xml
 msgid "FTP username of the remote receiver the channel list is being imported from."
 msgstr "Nutolusio imtuvo, iš kurio importuojamas kanalų sąrašas, FTV vartotojo vardas."
 
+#: ../plugin.py:111
 msgid "Fetch channels from the server."
 msgstr "Pasiųsti kanalus iš serverio."
 
+#: ../plugin.py:113
 msgid "For importing bouquets from another receiver"
 msgstr "Kad importuoti bukietus iš kito aparato,"
 
+#: ../ChannelsImporter.py:189
 msgid "Force EPG save on remote receiver"
 msgstr "Priverstinai įkelti EPG nutolusiame aparate"
 
+#: ../setup.xml
 msgid "IP address of the remote receiver the channel list is  being imported from."
 msgstr "Nutolusio imtuvo, iš kurio importuojamas kanalų sąrašas, IP adresas."
 
+#: ../setup.xml
 msgid "If 'yes' the importer will automatically import and load EPG data from the remote receiver if the file exists."
 msgstr "Jeigu 'taip', importuotojas automatiškai importuos ir įkels EPG duomenis iš nutolusio aparato, jei tas failas yra."
 
+#: ../setup.xml
 msgid "If 'yes' the importer will automatically run at startup or reboot."
 msgstr "Jeigu 'taip', importuotojas automatiškai pasileis sistemai startuojant, arba paleidžiant iš naujo."
 
+#: ../plugin.py:67
 msgid "Import"
 msgstr "Importuoti"
 
+#: ../setup.xml
 msgid "Import EPG"
 msgstr "Įkelti EPG"
 
+#: ../ChannelsImporter.py:229
 msgid "Loading epg.dat..."
 msgstr "įkeliamas epg.dat..."
 
+#: ../ChannelsImporter.py:176
 msgid "Loading new channel list..."
 msgstr "Įkeliamas naujas kanalų sąrašas..."
 
+#: ../setup.xml
 msgid "Passive mode"
 msgstr "Pasyvus režimas"
 
+#: ../setup.xml
 msgid "Push error messages to the screen. Switch on for debugging only."
 msgstr "Rodyti ekrane iškylančius klaidų pranešimus. Įjunkite tik klaidų taisymui."
 
 # setup.xml
+#: ../setup.xml
 msgid "Remote receiver IP"
 msgstr "Nutolusio imtuvo IP"
 
+#: ../ChannelsImporter.py:169
 msgid "Removing current channel list..."
 msgstr "Šalinamas dabartinis kanalų sąrašas..."
 
+#: ../setup.xml
 msgid "Repeat how often"
 msgstr "Kas kiek laiko kartoti"
 
+#: ../setup.xml
 msgid "Run at restart"
 msgstr "Vykdyti, paleidžiant sistemą iš naujo"
 
+#: ../setup.xml
 msgid "Schedule import"
 msgstr "Importo tvarkaraštis"
 
+#: ../ChannelsImporter.py:195
 msgid "Searching for epg.dat"
 msgstr "Ieškoma epg.dat"
 
+#: ../setup.xml
 msgid "Set the repeat interval of the schedule."
 msgstr "Nustatykite kartojimų intervalą tvarkaraštyje."
 
+#: ../setup.xml
 msgid "Set the time of day to perform the scan."
 msgstr "Nustatykite paros laiką paieškai atlikti."
 
+#: ../setup.xml
 msgid "Should the FTP connection to the remote receiver be established in passive mode?"
 msgstr "Ar jungtis prie nutolusio imtuvo FTP pasyviu režimu?"
 
+#: ../setup.xml
 msgid "Show error messages"
 msgstr "Rodyti klaidų pranešimus"
 
+#: ../setup.xml
 msgid "Show in extensions"
 msgstr "Rodyti tarp plėtinių"
 
+#: ../ChannelsImporter.py:43
 msgid "Starting importer"
 msgstr "Importavimo pradžia"
 
+#: ../ChannelsImporter.py:53
 msgid "Starting importer..."
 msgstr "Importuotojas atveriamas..."
 
+#: ../setup.xml
 msgid "Time import should start"
 msgstr "Importo pradžios laikas"
 
+#: ../setup.xml
 msgid "When enabled, allows you start an import from the extensions list."
 msgstr "Kai ši parinktis įjungta, importą galite atlikti iš plėtinių sąrašo."
 
+#: ../ChannelsImporter.py:223
 msgid "epg.dat not found"
 msgstr "epg.dat nerastas"

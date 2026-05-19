@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ChannelsImporter\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-03 07:54+0100\n"
+"POT-Creation-Date: 2026-04-08 10:12+0200\n"
 "PO-Revision-Date: 2022-11-04 07:49+0100\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <>\n"
@@ -17,220 +17,255 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-msgid "%a %e %b  %-H:%M"
-msgstr "%a %e %b  %-H:%M"
-
+#: ../ChannelsImporter.py:88 ../ChannelsImporter.py:99
+#: ../ChannelsImporter.py:126 ../ChannelsImporter.py:137
+#: ../ChannelsImporter.py:148 ../ChannelsImporter.py:163
 #, python-format
 msgid "%d/%d"
 msgstr "%d/%d"
 
-msgid ""
-"'yes' and remote fallback tuner will be automatically configured to stream"
-" from the remote receiver. 'no' and fallback will not be edited."
-msgstr ""
-"'sì' e il sintonizzatore remoto di fallback verrà automaticamente configurato"
-" per lo streaming dal ricevitore remoto. 'no' e fallback non verranno"
-" modificati."
+#: ../setup.xml
+msgid "'yes' and remote fallback tuner will be automatically configured to stream from the remote receiver. 'no' and fallback will not be edited."
+msgstr "'sì' e il sintonizzatore remoto di fallback verrà automaticamente configurato per lo streaming dal ricevitore remoto. 'no' e fallback non verranno modificati."
 
+#: ../setup.xml
 msgid "Allows you to set a schedule to perform an import."
 msgstr "Consente di impostare una pianificazione per eseguire un'importazione."
 
+#: ../setup.xml
 msgid "Auto configure remote fallback tuner"
 msgstr "Configurazione automatica sintonizzatore di fallback remoto"
 
 # ChannelsImporter.py
+#: ../ChannelsImporter.py:42 ../ChannelsImporter.py:264 ../plugin.py:100
+#: ../plugin.py:111 ../setup.xml
 msgid "Channels importer"
 msgstr "Importatore canali"
 
 # ChannelsImporter.py
+#: ../plugin.py:113
 msgid "ChannelsImporter"
 msgstr "ChannelsImporter"
 
+#: ../ChannelsImporter.py:59
 msgid "Checking FTP connection to remote receiver"
 msgstr "Verifica connessione FTP al ricevitore remoto"
 
+#: ../ChannelsImporter.py:141
 msgid "Checking for alternatives..."
 msgstr "Verifica delle alternative..."
 
+#: ../ChannelsImporter.py:75
 msgid "Connection to remote IP ok"
 msgstr "Connessione all'IP remoto OK"
 
+#: ../ChannelsImporter.py:70
 msgid "Could not connect to the remote IP"
 msgstr "Impossibile collegarsi all'IP remoto"
 
 # plugin.py
+#: ../plugin.py:29
 msgid "Daily"
 msgstr "Giornaliero"
 
+#: ../ChannelsImporter.py:224
 #, python-format
 msgid ""
-"Download epg.dat from remote receiver failed. Check file exists on remote"
-" receiver.\n"
+"Download epg.dat from remote receiver failed. Check file exists on remote receiver.\n"
 "%s"
 msgstr ""
-"Download Epg.dat dal ricevitore remoto non riuscito.\nVerifica che il file"
-" esista nel ricevitore remoto\n %s"
+"Download Epg.dat dal ricevitore remoto non riuscito.\n"
+"Verifica che il file esista nel ricevitore remoto\n"
+" %s"
 
+#: ../ChannelsImporter.py:93 ../ChannelsImporter.py:131
+#: ../ChannelsImporter.py:153 ../ChannelsImporter.py:157
 #, python-format
 msgid "Download from remote failed %s"
 msgstr "Download da remoto fallito %s"
 
+#: ../ChannelsImporter.py:203
 #, python-format
 msgid "Download settings from remote failed %s"
 msgstr "Download impostazioni dal server remoto non riuscito %s"
 
+#: ../ChannelsImporter.py:147
 msgid "Downloading alternatives..."
 msgstr "Scaricando delle alternative..."
 
+#: ../ChannelsImporter.py:125
 msgid "Downloading bouquets..."
 msgstr "Scaricando bouquet..."
 
+#: ../ChannelsImporter.py:87
 msgid "Downloading channel indexes..."
 msgstr "Scaricando indici dei canali…"
 
+#: ../scheduler.py:147
 msgid "Enough Retries, delaying till next schedule."
 msgstr "Troppi tentativi, rimando fino alla prossima pianificazione."
 
+#: ../plugin.py:29
 msgid "Every 12 hours"
 msgstr "Ogni 12 ore"
 
+#: ../plugin.py:29
 msgid "Every 2 hours"
 msgstr "Ogni 2 ore"
 
+#: ../plugin.py:29
 msgid "Every 2 minutes (for testing)"
 msgstr "Ogni 2 minuti (per test)"
 
+#: ../plugin.py:29
 msgid "Every 3 hours"
 msgstr "Ogni 3 ore"
 
+#: ../plugin.py:29
 msgid "Every 5 minutes (for testing)"
 msgstr "Ogni 5 minuti (per test)"
 
+#: ../plugin.py:29
 msgid "Every 6 hours"
 msgstr "Ogni 6 ore"
 
+#: ../plugin.py:29
 msgid "Every hour"
 msgstr "Ogni ora"
 
+#: ../setup.xml
 msgid "FTP Password"
 msgstr "Password FTP"
 
+#: ../setup.xml
 msgid "FTP Port"
 msgstr "Porta FTP"
 
+#: ../setup.xml
 msgid "FTP Username"
 msgstr "Nome utente FTP"
 
-msgid ""
-"FTP password of the remote receiver the channel list is being imported from."
-msgstr ""
-"Password FTP del ricevitore remoto da cui viene importato l'elenco canali."
+#: ../setup.xml
+msgid "FTP password of the remote receiver the channel list is being imported from."
+msgstr "Password FTP del ricevitore remoto da cui viene importato l'elenco canali."
 
-msgid ""
-"FTP port of the remote receiver the channel list is being imported from."
-msgstr ""
-"Porta FTP del ricevitore remoto da cui viene importato l'elenco canali."
+#: ../setup.xml
+msgid "FTP port of the remote receiver the channel list is being imported from."
+msgstr "Porta FTP del ricevitore remoto da cui viene importato l'elenco canali."
 
-msgid ""
-"FTP username of the remote receiver the channel list is being imported from."
-msgstr ""
-"Nome utente FTP del ricevitore remoto da cui viene importato l'elenco canali."
+#: ../setup.xml
+msgid "FTP username of the remote receiver the channel list is being imported from."
+msgstr "Nome utente FTP del ricevitore remoto da cui viene importato l'elenco canali."
 
+#: ../plugin.py:111
 msgid "Fetch channels from the server."
 msgstr "Leggi canali dal server."
 
+#: ../plugin.py:113
 msgid "For importing bouquets from another receiver"
 msgstr "Per importare i bouquet da un altro ricevitore"
 
+#: ../ChannelsImporter.py:189
 msgid "Force EPG save on remote receiver"
 msgstr "Forza salvataggio EPG sul ricevitore remoto"
 
-msgid ""
-"IP address of the remote receiver the channel list is  being imported from."
-msgstr ""
-"Indirizzo IP del ricevitore remoto da cui viene importato l'elenco canali."
+#: ../setup.xml
+msgid "IP address of the remote receiver the channel list is  being imported from."
+msgstr "Indirizzo IP del ricevitore remoto da cui viene importato l'elenco canali."
 
-msgid ""
-"If 'yes' the importer will automatically import and load EPG data from the"
-" remote receiver if the file exists."
-msgstr ""
-"Se 'sì', ChannelsImporter importerà e caricherà automaticamente i dati EPG"
-" dal ricevitore remoto se il file esiste."
+#: ../setup.xml
+msgid "If 'yes' the importer will automatically import and load EPG data from the remote receiver if the file exists."
+msgstr "Se 'sì', ChannelsImporter importerà e caricherà automaticamente i dati EPG dal ricevitore remoto se il file esiste."
 
+#: ../setup.xml
 msgid "If 'yes' the importer will automatically run at startup or reboot."
-msgstr ""
-"Se 'sì', ChannelsImporter verrà eseguito automaticamente all'avvio o al"
-" riavvio."
+msgstr "Se 'sì', ChannelsImporter verrà eseguito automaticamente all'avvio o al riavvio."
 
+#: ../plugin.py:67
 msgid "Import"
 msgstr "Importa"
 
+#: ../setup.xml
 msgid "Import EPG"
 msgstr "Importa EPG"
 
+#: ../ChannelsImporter.py:229
 msgid "Loading epg.dat..."
 msgstr "Caricamento epg.dat..."
 
+#: ../ChannelsImporter.py:176
 msgid "Loading new channel list..."
 msgstr "Carico il nuovo elenco canali..."
 
+#: ../setup.xml
 msgid "Passive mode"
 msgstr "Modalità passiva"
 
+#: ../setup.xml
 msgid "Push error messages to the screen. Switch on for debugging only."
 msgstr "Invia messaggi di errore sullo schermo. Attiva solo per il debug."
 
 # setup.xml
+#: ../setup.xml
 msgid "Remote receiver IP"
 msgstr "IP ricevitore remoto"
 
+#: ../ChannelsImporter.py:169
 msgid "Removing current channel list..."
 msgstr "Rimozione elenco canali corrente..."
 
+#: ../setup.xml
 msgid "Repeat how often"
 msgstr "Ripeti quanto spesso"
 
+#: ../setup.xml
 msgid "Run at restart"
 msgstr "Esegui al riavvio"
 
+#: ../setup.xml
 msgid "Schedule import"
 msgstr "Pianifica importazione"
 
+#: ../ChannelsImporter.py:195
 msgid "Searching for epg.dat"
 msgstr "Ricerca di epg.dat"
 
+#: ../setup.xml
 msgid "Set the repeat interval of the schedule."
 msgstr "Imposta intervallo di ripetizione del programma."
 
+#: ../setup.xml
 msgid "Set the time of day to perform the scan."
 msgstr "Imposta ora del giorno per eseguire la scansione."
 
-msgid ""
-"Should the FTP connection to the remote receiver be established in passive"
-" mode?"
-msgstr ""
-"La connessione FTP al ricevitore remoto deve essere stabilita in modalità"
-" passiva?"
+#: ../setup.xml
+msgid "Should the FTP connection to the remote receiver be established in passive mode?"
+msgstr "La connessione FTP al ricevitore remoto deve essere stabilita in modalità passiva?"
 
+#: ../setup.xml
 msgid "Show error messages"
 msgstr "Mostra messaggi d'errore"
 
+#: ../setup.xml
 msgid "Show in extensions"
 msgstr "Mostra in estensioni"
 
+#: ../ChannelsImporter.py:43
 msgid "Starting importer"
 msgstr "Avvio importazione"
 
+#: ../ChannelsImporter.py:53
 msgid "Starting importer..."
 msgstr "Avvio importazione..."
 
+#: ../setup.xml
 msgid "Time import should start"
 msgstr "Orario previsto per l'importazione"
 
+#: ../setup.xml
 msgid "When enabled, allows you start an import from the extensions list."
-msgstr ""
-"Se abilitato, consente di avviare un'importazione dall'elenco delle"
-" estensioni."
+msgstr "Se abilitato, consente di avviare un'importazione dall'elenco delle estensioni."
 
+#: ../ChannelsImporter.py:223
 msgid "epg.dat not found"
 msgstr "epg.dat non trovato"
